@@ -11,8 +11,40 @@
   </head>
   <body>
     <main>
-      <section>
+      <section class="slider">
         <h1>CSS Mem Slider</h1>
+        <div class="slider__wrapper">
+          <ul class="slider__list">
+            <li class="slider__item">
+              <img class="slider__image" src="images/01.jpeg" alt="Meme 1" />
+            </li>
+            <li class="slider__item active">
+              <img class="slider__image" src="images/02.jpeg" alt="Meme 2" />
+            </li>
+            <li class="slider__item">
+              <img class="slider__image" src="images/03.jpeg" alt="Meme 3" />
+            </li>
+            <li class="slider__item">
+              <img class="slider__image" src="images/04.jpeg" alt="Meme 4" />
+            </li>
+          </ul>
+        </div>
+        <div class="slider__inner">
+          <div class="slider__pagination">
+            <ul class="slider__controls">
+              <li class="slider__control"><span></span></li>
+              <li class="slider__control active"><span></span></li>
+              <li class="slider__control"><span></span></li>
+              <li class="slider__control"><span></span></li>
+            </ul>
+          </div>
+          <div class="slider__item-text">
+            <p class="slider__text">Meme 1 description</p>
+            <p class="slider__text active">Meme 2 description</p>
+            <p class="slider__text">Meme 3 description</p>
+            <p class="slider__text">Meme 4 description</p>
+          </div>
+        </div>
       </section>
     </main>
 
